@@ -4,11 +4,12 @@ let my_obj={
     name:"Abhishek",
     role:"Programmer",
     id:123,
-    fun:function (){
-     return this.name
+    fun:function ab(){
+    console.log(this)
+     return this
     },
     arr:(abhishek =>{
-        return this.name
+        return this
     })
 }
 console.log("this  is a normal function ")
